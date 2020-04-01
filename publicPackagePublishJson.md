@@ -1,7 +1,7 @@
 {
   "name": "aot-formio-export",
   "version": "0.3.1",
-  "description": "Formio Export Tools",
+  "description": "AOT Formio Export",
   "main": "lib/FormioExport.js",
   "directories": {
     "lib": "lib",
@@ -28,6 +28,9 @@
   "author": "Gurumoorthy Mohan",
   "license": "AOT",
   "homepage": "https://github.com/AOT-Technologies/formio-export#readme",
+  "bugs": {
+    "url": "https://github.com/AOT-Technologies/formio-export/issues"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
