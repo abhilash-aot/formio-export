@@ -26,7 +26,7 @@
     "formiojs"
   ],
   "author": "Gurumoorthy Mohan",
-  "license": "AOT",
+  "license": "MIT",
   "homepage": "https://github.com/AOT-Technologies/formio-export#readme",
   "bugs": {
     "url": "https://github.com/AOT-Technologies/formio-export/issues"
