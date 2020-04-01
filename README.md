@@ -239,6 +239,36 @@ Tests use samples provided in `test/samples` and should use [Form.io's Component
 ```
 npm run test
 ```
+## NPM Packaging
+### Creating a public package and publish in https://npm.pkg.github.com/
+
+* Through Github, create personal access token with publish rights (https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line), keep a copy of it or you have to regenerate again
+* Login using the token (Note: username: $userid not email id [guru-aot], password: personal access token got from previous steps, Email: AOT email id)
+```
+npm login --registry=https://npm.pkg.github.com/
+```
+* First time, you have will get an Email, please verify it or while publishing it will ask you to verify.
+* Rename the existing package.json to something and rename the publicPackagePublishJson.md to package.json
+* Increase the version accordingly in the package.json
+* Run the below command to publish
+```
+npm publish
+```
+* You can manually log into https://go.npm.me/login to check your published packages.
+
+### Creating a private package
+
+* Rename existing backup.npmrc to .npmrc, run
+```
+ls -a
+```
+to view hidden files in shell
+* Upgrade the version in package.json file
+* Upgrade user to publish private packages, in https://www.npmjs.com and try
+```
+npm publish
+```
+* You can see the published packages in the corresponding github repositories
 
 ## Built With
 
@@ -246,10 +276,3 @@ npm run test
 * [html2canvas](http://html2canvas.hertzen.com) - JavaScript html to canvas renderer library
 * [jsPDF](https://github.com/MrRio/jsPDF) - Client-sdie JavaScript PDF generator library
 
-## Authors
-
-* **Alfredo Irarrazaval** - *Initial work* - [airarrazaval](https://github.com/airarrazaval)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
