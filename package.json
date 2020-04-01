@@ -1,7 +1,7 @@
 {
-  "name": "FormioExport",
-  "version": "0.3.1",
-  "description": "Formio Export Tools",
+  "name": "@AOT-Technologies/formio-export",
+  "version": "0.0.1",
+  "description": "AOT Formio Export",
   "main": "lib/FormioExport.js",
   "directories": {
     "lib": "lib",
@@ -15,19 +15,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airarrazaval/formio-export.git"
+    "url": "https://github.com/AOT-Technologies/formio-export.git"
   },
   "keywords": [
     "javascript",
     "formio",
     "formiojs"
   ],
-  "author": "Alfredo Irarrazaval",
-  "license": "MIT",
+  "author": "Gurumoorthy Mohan",
+  "license": "AOT",
   "bugs": {
-    "url": "https://github.com/airarrazaval/formio-export/issues"
+    "url": "https://github.com/AOT-Technologies/formio-export/issues"
   },
-  "homepage": "https://github.com/airarrazaval/formio-export#readme",
+  "homepage": "https://github.com/AOT-Technologies/formio-export#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
