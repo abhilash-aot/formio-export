@@ -1,5 +1,5 @@
 {
-  "name": "@AOT-Technologies/formio-export",
+  "name": "@aot-technologies/formio-export",
   "version": "0.0.1",
   "description": "AOT Formio Export",
   "main": "lib/FormioExport.js",
