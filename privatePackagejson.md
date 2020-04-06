@@ -1,6 +1,6 @@
 {
-  "name": "aot-formio-export",
-  "version": "0.3.1",
+  "name": "@aot-technologies/formio-export",
+  "version": "0.0.1",
   "description": "AOT Formio Export",
   "main": "lib/FormioExport.js",
   "directories": {
@@ -8,11 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "build": "webpack --env dev && webpack --env build && npm run test",
+    "build": "webpack --env dev && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
-    "publishConfig": {
-      "registry":"https://npm.pkg.github.com/"
-    },
     "test": "mocha --require jsdom-global/register --require babel-core/register --colors ./test/*.spec.js",
     "test:watch": "mocha --require jsdom-global/register --require babel-core/register --colors -w ./test/*.spec.js"
   },
@@ -27,10 +24,10 @@
   ],
   "author": "Gurumoorthy Mohan",
   "license": "MIT",
-  "homepage": "https://github.com/AOT-Technologies/formio-export#readme",
   "bugs": {
     "url": "https://github.com/AOT-Technologies/formio-export/issues"
   },
+  "homepage": "https://github.com/AOT-Technologies/formio-export#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -41,7 +38,7 @@
     "chai": "^4.1.2",
     "eslint": "^4.19.1",
     "eslint-loader": "^2.0.0",
-    "jsdom": "^11.10.0",
+    "jsdom": "^11.12.0",
     "jsdom-global": "^3.0.2",
     "mocha": "^5.1.1",
     "webpack": "^4.41.5",

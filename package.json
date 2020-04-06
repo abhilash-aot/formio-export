@@ -1,6 +1,6 @@
 {
-  "name": "@aot-technologies/formio-export",
-  "version": "0.0.1",
+  "name": "aot-formio-export",
+  "version": "1.1.0",
   "description": "AOT Formio Export",
   "main": "lib/FormioExport.js",
   "directories": {
@@ -10,6 +10,9 @@
   "scripts": {
     "build": "webpack --env dev && webpack --env build && npm run test",
     "dev": "webpack --progress --colors --watch --env dev",
+    "publishConfig": {
+      "registry":"https://npm.pkg.github.com/"
+    },
     "test": "mocha --require jsdom-global/register --require babel-core/register --colors ./test/*.spec.js",
     "test:watch": "mocha --require jsdom-global/register --require babel-core/register --colors -w ./test/*.spec.js"
   },
@@ -24,10 +27,10 @@
   ],
   "author": "Gurumoorthy Mohan",
   "license": "MIT",
+  "homepage": "https://github.com/AOT-Technologies/formio-export#readme",
   "bugs": {
     "url": "https://github.com/AOT-Technologies/formio-export/issues"
   },
-  "homepage": "https://github.com/AOT-Technologies/formio-export#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
