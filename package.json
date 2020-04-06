@@ -1,6 +1,6 @@
 {
   "name": "aot-formio-export",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "AOT Formio Export",
   "main": "lib/@aot-technologies/formio-export.js",
  "directories": {
@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "webpack --env dev && webpack --env build",
+    "build": "webpack --env dev && webpack --env build && npm run test",
     "dev": "webpack --progress --colors --watch --env dev",
     "publishConfig": {
       "registry":"https://npm.pkg.github.com/"
