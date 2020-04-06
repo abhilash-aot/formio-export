@@ -33,8 +33,10 @@ import ContentComponent from './content';
 import ColumnsComponent from './columns';
 import PanelComponent from './panel';
 import FieldSetComponent from './fieldset';
+import WellComponent from './well';
 
 import UnknownComponent from './unknown';
+
 
 const FormioComponent = {
   textfield: TextFieldComponent,
@@ -63,6 +65,7 @@ const FormioComponent = {
   panel: PanelComponent,
   fieldset: FieldSetComponent,
   unknown: UnknownComponent,
+  well: WellComponent,
   form: FormComponent,
   content: ContentComponent,
   html: HtmlComponent,
