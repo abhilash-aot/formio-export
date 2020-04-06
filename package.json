@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "webpack --env dev && webpack --env build",
+    "build": "webpack --env dev && webpack --env build && npm run test",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --require jsdom-global/register --require babel-core/register --colors ./test/*.spec.js",
     "test:watch": "mocha --require jsdom-global/register --require babel-core/register --colors -w ./test/*.spec.js"
