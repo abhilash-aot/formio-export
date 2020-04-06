@@ -37,7 +37,6 @@ import WellComponent from './well';
 
 import UnknownComponent from './unknown';
 
-
 const FormioComponent = {
   textfield: TextFieldComponent,
   textarea: TextAreaComponent,

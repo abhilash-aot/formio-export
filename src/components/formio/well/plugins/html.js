@@ -12,7 +12,6 @@ export default (element, component) => {
       class: 'component-value card-body'
     });
 
-
     _.forEach(component.components, (c) => {
       if (c) {
         if (component.inDataGrid) {
